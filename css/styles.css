@@ -58,3 +58,11 @@ html, body {
 .header .sign-in-button:hover{
     text-decoration: none;
 }
+
+.google-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 40px;
+}
