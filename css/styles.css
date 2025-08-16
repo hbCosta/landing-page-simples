@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    margin-right: 5px;
+}
+
+
+.header a{
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.app-icon {
+    fill: #5f6368;
+    margin: 0 15px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.app-icon svg { /* Adicione essa regra */
+    width: 24px;
+    height: 24px;
+}
+
+.header .app-icon:hover {
+    background-color: #f1f3f4;
+}
+
+.header .sign-in-button {
+    background-color: #4285f4;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+.header .sign-in-button:hover{
+    text-decoration: none;
+}
